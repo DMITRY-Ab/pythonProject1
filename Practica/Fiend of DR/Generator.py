@@ -8,4 +8,4 @@ with open('Database', encoding='UTF-8') as db:
 def get_word():
     word = random.choice(words_list)
     words_list.remove(word)
-    return
+    return word
