@@ -15,5 +15,5 @@ def MontyHall(count_of_interations):
             a.remove(player_choice)
             if a[0] == 1:
                 count_changed_choice += 1
-    return f'количество не меняя выбор: {count} количество поменяв выбор: {count_changed_choice} вероятность выиграша ' \
+    return f'количество не меня выбор: {count} количество поменяв выбор: {count_changed_choice} вероятность выиграша ' \
            f'при своем выборе: {(count * 100) / (count + count_changed_choice)} '
